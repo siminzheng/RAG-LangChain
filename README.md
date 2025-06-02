@@ -33,3 +33,22 @@ retriever.py：封装检索器（Retriever）。
 prompt.py：定义 Prompt 模板。
 
 main.py：主入口，组织各模块，运行 RAG 查询。
+
+使用步骤
+安装依赖
+
+bash
+复制
+编辑
+cd langchain_rag
+pip install -r requirements.txt
+**填写 .env **
+把你的实际 OPENAI_API_KEY 和 OPENAI_API_BASE 填进去。
+
+运行 main.py
+
+bash
+复制
+编辑
+python main.py
+你会看到打印的 Prompt 内容，以及 LLM 返回的答案。
