@@ -1,0 +1,1 @@
+本项目通过使用LangChain实现一个RAG检索增强生成实例，大模型版本为gpt3.5-turbo,向量嵌入模型为text-embedding-3-small，调用的是OpenAI官方api接口
