@@ -10,7 +10,7 @@ from langchain_openai import ChatOpenAI
 
 def main():
     # 1. 加载并切分 PDF → Document 列表
-    pdf_path = "/root/autodl-tmp/ragtest/langchain_rag/Transformer_interview.pdf"
+    pdf_path = "sample_files/Transformer_interview.pdf"
     documents = load_and_split_pdf(pdf_path)
 
     # 2. 向量化并构建 Chroma 数据库（内存模式，不持久化）
