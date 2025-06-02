@@ -38,6 +38,8 @@ main.py：主入口，组织各模块，运行 RAG 查询。
 安装依赖
 cd langchain_rag
 pip install -r requirements.txt
+
+
 **填写 .env **
 把你的实际 OPENAI_API_KEY 和 OPENAI_API_BASE 填进去。
 
@@ -45,3 +47,4 @@ pip install -r requirements.txt
 
 python main.py
 你会看到打印的 Prompt 内容，以及 LLM 返回的答案。
+```
